@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Learncompo from './learn-compo/learn-compo.js';
 
 class App extends Component {
   render() {
@@ -14,7 +15,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <div id='app'></div>
-        </div>
+        <Learncompo name='Name form App.js'/>
+      </div>
+        
     );
   }
 }

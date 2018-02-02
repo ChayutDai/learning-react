@@ -40,5 +40,15 @@ element = (<div>
 </div>);
 ReactDOM.render(element,document.getElementById('app'));
 
+//Render by Funtion + Props
+function Appz(props){
+    return(
+     <div>
+        <p>{props.name} Function </p>
+        <button onClick={changeName}>Change Name</button>
+     </div>
+    );
+}
+ReactDOM.render(<Appz name="Max props"/>,document.querySelector('#app'));
 
 
